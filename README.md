@@ -91,16 +91,9 @@ Describes project goals, technology used, and the AI model pipeline.
 3. Activate the environment:
    - Windows: `venv\Scripts\activate`
    - Unix/MacOS: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
+4. Install dependencies: `pip install flask opencv-python numpy tensorflow keras reportlab`
 5. Start the server: `python app.py`
 6. Visit `http://localhost:5000` in your browser
-
-### Production Deployment
-1. Use Nginx or Apache to serve the Flask app via Gunicorn/WSGI
-2. Set up secure environment variables for production
-3. Configure logging and monitoring
-4. Enable HTTPS for secure transmission
-5. Optionally, containerize using Docker for portability
 
 ## Future Enhancements
 - Enable user authentication for storing injury history and past reports.
