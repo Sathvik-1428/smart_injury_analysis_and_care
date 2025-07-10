@@ -56,8 +56,6 @@ Provides general education on injury types, treatment basics, and when to seek p
 ### About
 Describes project goals, technology used, and the AI model pipeline.
 
-## Environment Limitations and Testing Notes
-
 ### Camera Access
 - Webcam works on browsers with user permission enabled.
 - May not function in some development environments due to browser sandboxing.
@@ -77,8 +75,6 @@ Describes project goals, technology used, and the AI model pipeline.
   - Precautions and medications
   - PDF report link
 - Handles unexpected errors gracefully with informative responses.
-
-## Deployment Instructions
 
 ### Prerequisites
 - Python 3.9.11
